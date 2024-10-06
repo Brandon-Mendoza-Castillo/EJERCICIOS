@@ -2,7 +2,7 @@ CR equ 13;retorno de carro
 LF equ 0Ah; inicio de linea
 
 Datos Segment 
-
+         
     Mensaje db CR,LF, 'Hola Mundo',CR,LF,'$'
     
 Datos Ends
